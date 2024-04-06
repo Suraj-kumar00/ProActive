@@ -3,6 +3,7 @@
 // import AppleLogin from "react-apple-login";
 // import ManWalkingOnStairs from "../Images/ManWalkingOnStairs.svg";
 
+
 const LoginPage = () => {
   return (
     <div className="font-serif flex justify-center items-center h-screen bg-cover  bg-[url('./Images/Background_Image.png')]  ">
@@ -37,7 +38,7 @@ const LoginPage = () => {
         <div className="flex justify-between">
           <div className=" text-white  font-bold  ">Password</div>
           <div className="text-red-400 font-semibold mr-12">
-            forget Password
+            <a href=""><span>forget Password</span></a>
           </div>
         </div>
         <div>
@@ -50,7 +51,7 @@ const LoginPage = () => {
         </div>
         <div className=" ">
           <button
-            className="bg-purple-800 px-24 pt-2 pb-3 text-white rounded-xl font-semibold w-[350px] mr-[51px] mt-[15px] py-5 ml-[25px]"
+            className="bg-purple-800 px-24 pt-2 pb-3 text-white rounded-xl font-semibold w-[350px] mr-[51px] mt-[15px] py-5 ml-[25px] hover:bg-purple-900"
             type="submit"
           >
             LOGIN
@@ -86,7 +87,7 @@ const LoginPage = () => {
               />
             </svg>
 
-            <span className=" ">Sign in with Google</span>
+            <button ><span className=" ">Sign in with Google</span></button>
           </div>
           <div className="m-4 border-gray-700 border-[1px] p-2 text-xs h-[40px] w-[160px] rounded-xl mr-2 text-white  flex justify-center items-center">
             <svg
@@ -122,12 +123,12 @@ const LoginPage = () => {
               </defs>
             </svg>
 
-            <span className=" ">Sign in with Apple</span>
+            <button><span className=" ">Sign in with Apple</span></button>
           </div>
         </div>
         <div className="mt-2 text-white ml-[88px]">
           <span> Don&apos;t have an account?</span>
-          <span className="text-red-400 font-semibold ml-2">Sign Up</span>
+          <a href=""><span className="text-red-400 font-semibold ml-2">Sign Up</span></a>
         </div>
       </div>
     </div>
