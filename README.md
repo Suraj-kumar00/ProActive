@@ -1,8 +1,8 @@
-# ProActive - Web Based Productivity Tool
+# ProActive - Web-Based Productivity Tool
 
 ## What is Procrastination?
 
-It's a act of delaying/postponing the important task or action you need to do regardless of knowing it's consequences.
+It's an act of delaying/postponing the important task or action you need to do regardless of knowing its consequences.
 
 #### Example:
 
@@ -12,19 +12,19 @@ Continuously postponing updating software or fixing bugs in a project, despite k
 
 ## ProActive
 
-As we know Procrastination is a very common psychology based problem which can be solved by ProActive - a web based Productivity tool.
+As we know Procrastination is a very common psychology-based problem that can be solved by ProActive - a web-based Productivity tool.
 
 ## 3 Basic aspects of psychology
 
 - Manifestation
 - Discipline
-- Dopamine Variable Rewared System
+- Dopamine Variable Reward System
 
 ## Some statistics
 
-Recently we conducted a survey and got some interesting data from people who are facing procrastination in their day to day life. Have a look at survey:
+Recently we conducted a survey and got some interesting data from people who are facing procrastination in their day-to-day lives. Have a look at the survey:
 
-![ProActive procrastination survey report]("")
+![ProActive procrastination survey report](https://raw.githubusercontent.com/Suraj-kumar00/ProActive/main/Assets/Statistics_of_ProActive.jpeg)
 
 ## Project Wireframe (Implementation)
 
@@ -38,10 +38,10 @@ Recently we conducted a survey and got some interesting data from people who are
 
 - Meaningful Breaks
 - Progress Tracking
-- Develop daily routine
+- Develop a daily routine
 - Distraction Control
 - Timer(Pomodoro Technique), ToDo List
-- Community Suport
+- Community Support
 
 ## Tech Stack
 
@@ -52,7 +52,7 @@ Recently we conducted a survey and got some interesting data from people who are
 
 ### DataBase:
 
-- MondoDB Atlas
+- MongoDB Atlas
 
 ### Backend:
 
@@ -66,7 +66,7 @@ Recently we conducted a survey and got some interesting data from people who are
 
 ## Future Enhancement
 
-We can make our web based productive tool for organization specific purposes.
+We can make our web-based productive tool for organization-specific purposes.
 
 ---
 
