@@ -1,4 +1,5 @@
 import "./App.css";
+import PomoDoro from "./components/PomodoroTimer";
  //import Footer from "./components/Footer";
 // import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
@@ -7,15 +8,18 @@ import Navbar from "./components/Navbar";
  //import SignUpPage from "./components/SignUpPage";
  //import ForgotPassword from "./components/ForgotPassword";
 import BodyPage1 from "./components/BodyPage1";
+
 // import Bodypage2 from "./components/BodyPage2";
  //import MainDashboard from "./components/MainDashboard";
 // import favicon32x32 from "./Images/favicon-32x32.png";
+
 
 function App() {
   return (
     <main className=""> 
     <BodyPage1 />
       {/* <Footer /> */}
+      <PomoDoro />
       <Navbar /> 
       {/* <MainDashboard /> */}
       {/* {<LoginPage />} */}
@@ -24,10 +28,7 @@ function App() {
       <SignUpPage />
       <ForgotPassword /> */}
       {/*
-     
-      <Bodypage2 />
       */}
-      {/* <img src={favicon32x32} alt="Favicon" /> */}
     </main>
   );
 }
