@@ -31,10 +31,10 @@ const BodyPage1  = () => {
         <div className="flex justify-around space-x-6"> 
          
           
-          <a href="#" className="hover:text-gray-400 ">Terms and Conditions user policy</a>
-           <a href="#" className="hover:text-gray-400"> Copyright © 2024 all rights ProActive  </a>
+          <a href="#" className="hover:text-gray-500 ">Terms and Conditions user policy</a>
+           <a href="#" className="hover:text-gray-500"> Copyright © 2024 all rights ProActive  </a>
           
-          <a href="#" className="hover:text-gray-400">Join Our Community</a>
+          <a href="#" className="hover:text-gray-500">Join Our Community</a>
         </div>
       </footer>
     </div>
