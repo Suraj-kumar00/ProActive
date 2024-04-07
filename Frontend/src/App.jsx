@@ -10,6 +10,7 @@ import LoginPage from "./components/LoginPage";
 // import Bodypage2 from "./components/BodyPage2";
 // import MainDashboard from "./components/MainDashboard";
 // import favicon32x32 from "./Images/favicon-32x32.png";
+import TodoList from "./components/ToDoList";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <LoginPage /> 
       <SignUpPage />
       <ForgotPassword />
+      <TodoList/>
       {/*
       <BodyPage1 />
       <Bodypage2 />
