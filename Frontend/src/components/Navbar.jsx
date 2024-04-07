@@ -1,13 +1,14 @@
 import { useState } from "react";
-import GitHubLogo from "../Images/GitHubLogo.svg";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
+// Remove the unused import statement
+import GitHubLogo from "../Images/GitHubLogo.svg";
 
 const Links = [
   { name: "HOME", link: "/" },
   { name: "ABOUT US", link: "/" },
   { name: "BLOG", link: "/" },
   { name: "CONTACT", link: "/" },
-  { name: "GITHUB", link: "https://github.com/DevsDialogue/ProActive" },
+  { name: "GITHUB", link: "https://github.com/Suraj-kumar00/ProActive.git" },
 ];
 
 const Navbar = () => {
