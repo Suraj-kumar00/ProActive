@@ -21,14 +21,14 @@ const BodyPage1  = () => {
         <h2 className="text-xl font-bold mb-4">What ProActive provide you</h2>
         <ul className="list-disc pl-4">
           <li>Proactive:This app gamifies productivity by encouraging users to stay focused for set periods of time.</li>
-          <li>Stay Focused: A browser for google chrome that allows users to restrict the amount of time they spend </li>
+          <li>Stay Focused:  A browser for google chrome that allows users to restrict the amount of time they spend </li>
           <li>Freedom: Similar to stay focused,freedom allows you to block distracting websites and apps across all your devices.</li>
           <li>Trello:While not specifically a procrastination app, Trello is a popular project management tool that can help organise tasks and deadlines. </li>
         </ul>
       </div>
       <footer className="bg-purple-800 text-white p-4">
         <div><h1 className='text-white font-bold ml-[98vh] text-3xl mb-1 '>ProActive</h1></div>
-        <div className="flex justify-around space-x-6">
+        <div className="flex justify-around space-x-6"> 
          
           
           <a href="#" className="hover:text-gray-400 ">Terms and Conditions user policy</a>
