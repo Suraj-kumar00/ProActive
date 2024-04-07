@@ -24,7 +24,7 @@ As we know Procrastination is a very common psychology based problem which can b
 
 Recently we conducted a survey and got some interesting data from people who are facing procrastination in their day to day life. Have a look at survey:
 
-![ProActive procrastination survey report]("Image_URL")
+![ProActive procrastination survey report]("")
 
 ## Project Wireframe (Implementation)
 
