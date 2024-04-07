@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaEdit } from "react-icons/fa";
 import { AiFillDelete } from "react-icons/ai";
 import { v4 as uuidv4 } from "uuid";
+import { saveToLS } from "./utils"; // Import the saveToLS function from the utils file
 // import Navbar from "./Navbar";
 
 function Todo() {
@@ -9,14 +10,9 @@ function Todo() {
   const [todos, setTodos] = useState([]);
   const [showFinished, setshowFinished] = useState(true);
 
-  const saveToLS = () => {
-    localStorage.setItem("todos", JSON.stringify(todos));
-  };
-
   const toggleFinished = () => {
     setshowFinished(!showFinished);
   };
-
   const handleEdit = (e, id) => {
     let t = todos.filter((i) => i.id === id);
     setTodo(t[0].todo);
@@ -24,6 +20,7 @@ function Todo() {
       return item.id !== id;
     });
     setTodos(newTodos);
+    saveToLS(); // Call the saveToLS function
     saveToLS();
   };
 

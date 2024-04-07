@@ -1,6 +1,16 @@
 import Navbar from "./Navbar";
+import { useNavigate } from "react-router-dom"; // Assuming you're using react-router-dom
+// // import LoginPage from "../components/LoginPage";
+// // import SignUpPage from "../components/SignUpPage";
 
 const BodyPage1 = () => {
+  const navigate = useNavigate();
+  const handleLoginClick = () => {
+    navigate("../Components/LoginPage");
+  };
+  const handleSignupClick = () => {
+    navigate("../Components/SignUpPage");
+  };
   return (
     <div className=" font-serif min-h-screen flex flex-col justify-between  h-screen bg-cover  bg-[url('./Images/Background_Image.png')]">
       <Navbar />
@@ -12,11 +22,17 @@ const BodyPage1 = () => {
           Say goodbye to procrastination,Let&apos;s make progress not excuses.
         </p>
         <div className="mt-8 ml-[70vh]">
-          <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 mr-4 rounded">
-            Login
+          <button
+            className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 mr-4 rounded"
+            onClick={handleLoginClick}
+          >
+            LOGIN
           </button>
-          <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded ">
-            Sign Up
+          <button
+            className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded "
+            onClick={handleSignupClick}
+          >
+            SIGN-UP
           </button>
         </div>
       </div>
@@ -44,24 +60,19 @@ const BodyPage1 = () => {
       </div>
       <footer className="bg-purple-800 text-white p-4">
         <div>
-          <h1 className="text-white font-bold ml-[94vh] ">ProActive</h1>
+          <h1 className="text-white font-bold ml-[98vh] text-3xl mb-1 ">
+            ProActive
+          </h1>
         </div>
-        <div className="flex justify-center space-x-6">
-          <a href="#" className="hover:text-gray-400">
-            Home
+        <div className="flex justify-around space-x-6">
+          <a href="#" className="hover:text-gray-400 ">
+            Terms and Conditions user policy
           </a>
           <a href="#" className="hover:text-gray-400">
-            Contact
+            {" "}
+            Copyright © 2024 all rights ProActive{" "}
           </a>
-          <a href="#" className="hover:text-gray-400">
-            About Us
-          </a>
-          <a href="#" className="hover:text-gray-400">
-            Blog
-          </a>
-          <a href="#" className="hover:text-gray-400">
-            Terms and Conditions
-          </a>
+
           <a href="#" className="hover:text-gray-400">
             Join Our Community
           </a>
@@ -70,5 +81,4 @@ const BodyPage1 = () => {
     </div>
   );
 };
-
 export default BodyPage1;

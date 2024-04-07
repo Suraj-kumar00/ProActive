@@ -60,9 +60,10 @@ function PomodoroTimer() {
     setIsWorkTime(true);
   };
 
-  const pauseTimer = () => {
-    setIsPaused(true);
-  };
+  // Remove the unused pauseTimer function
+  // const pauseTimer = () => {
+  //   setIsPaused(true);
+  // };
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">

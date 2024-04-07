@@ -2,7 +2,6 @@
 // // import GoogleLogin from "react-google-login";
 // // import AppleLogin from "react-apple-login";
 // // import ManWalkingOnStairs from "../Images/ManWalkingOnStairs.svg";
-
 const LoginPage = () => {
   return (
     <div className="font-serif flex justify-center items-center h-screen bg-cover  bg-[url('./Images/Background_Image.png')]  ">
@@ -141,5 +140,4 @@ const LoginPage = () => {
     </div>
   );
 };
-
 export default LoginPage;
