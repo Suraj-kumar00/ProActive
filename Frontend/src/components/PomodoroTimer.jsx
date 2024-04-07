@@ -57,19 +57,14 @@ function PomodoroTimer() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <div className="text-4xl font-bold mb-4">
+
+    <div className="p-2  bg-violet-100 mt-6 border rounded-md shadow-md min-w-2/3 min-h-[26vh] max-h-[26vh] relative">
+      <div className="text-9xl mx-32 font-extrabold ">
         {minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds}
       </div>
-      <div className="flex space-x-4">
-        <button onClick={toggleTimer} className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">
-          {isActive ? (isPaused ? 'Resume' : 'Pause') : 'Start'}
-        </button>
-        <button onClick={resetTimer} className="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded">
-          Reset
-        </button>
-      </div>
-      <div className="mt-4">
+      
+      <div className='flex'> 
+      <div className="flex-row mt-2 ml-2">
         <label htmlFor="workMinutes">Work Minutes:</label>
         <input
           id="workMinutes"
@@ -79,7 +74,15 @@ function PomodoroTimer() {
           className="ml-2 p-1 border border-gray-300 rounded"
         />
       </div>
-      <div className="mt-2">
+      <div className="flex space-x-4 h-[10%] mt-6 mx-7">
+        <button onClick={toggleTimer} className=" bg-violet-500 hover:bg-slate-300 hover:text-violet-500e py-2 px-4 rounded-full">
+          {isActive ? (isPaused ? 'Resume' : 'Pause') : 'Start'}
+        </button>
+        <button onClick={resetTimer} className= "bg-violet-500 hover:bg-slate-300 hover:text-violet-500 py-2 px-4 rounded-full">
+          Reset
+        </button>
+      </div>
+      <div className="flex-row mt-2 ">
         <label htmlFor="breakMinutes">Break Minutes:</label>
         <input
           id="breakMinutes"
@@ -88,7 +91,7 @@ function PomodoroTimer() {
           onChange={(e) => setBreakMinutes(parseInt(e.target.value))}
           className="ml-2 p-1 border border-gray-300 rounded"
         />
-      </div>
+      </div></div>
     </div>
   );
 }

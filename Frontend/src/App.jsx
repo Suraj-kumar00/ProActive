@@ -1,6 +1,8 @@
 import "./App.css";
+import DailyRoutineChecklist from "./components/DailyRoutine";
+// import Tips from "./components/Tips";
 // import Footer from "./components/Footer";
-import PomoDoro from "./components/PomodoroTimer";
+// import PomoDoro from "./components/PomodoroTimer";
 // import Loader from "./components/Loader";
 // import Navbar from "./components/Navbar";
 // import LoginPage from "./components/LoginPage";
@@ -14,21 +16,24 @@ import PomoDoro from "./components/PomodoroTimer";
 // import favicon32x32 from "./Images/favicon-32x32.png";
 
 
+
 function App() {
   return (
     <main className="">
       {/* <Footer /> */}
-      <PomoDoro />
+      
+      <DailyRoutineChecklist />
+      {/* <PomoDoro /> */}
       {/* <Navbar /> */}
       {/* {<LoginPage />} */}
       {/* <Loader /> */}
       {/* <LoginPage /> 
       <SignUpPage />
       <ForgotPassword /> */}
-      {/*
-      <BodyPage1 />
-      <Bodypage2 />
-      <MainDashboard /> */}
+      {/* <Tips /> */}
+      {/* <BodyPage1 />
+      <Bodypage2 /> */}
+      {/* <MainDashboard /> */}
       {/* <MyProductivity /> */}
       {/* <img src={favicon32x32} alt="Favicon" /> */}
     </main>
