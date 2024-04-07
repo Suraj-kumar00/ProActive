@@ -126,6 +126,8 @@ git push origin your_branch_name
 
 ## STAR This Repo
 
-We would highly appreciate if you could star this repo in order to show us that it is helpful and to help others if you like it! 🌟
+We would highly appreciate it if you could star this repo to show us that it is helpful and to help others if you like it! 🌟
 
 ## LICENSE
+ProActive is licensed under the terms of the MIT License. check out [LICENSE](https://github.com/Suraj-kumar00/ProActive/blob/main/LICENSE) for details.
+
