@@ -28,7 +28,7 @@ const BodyPage1  = () => {
       </div>
       <footer className="bg-purple-800 text-white p-4">
         <div><h1 className='text-white font-bold ml-[98vh] text-3xl mb-1 '>ProActive</h1></div>
-        <div className="flex justify-around space-x-6">
+        <div className="flex justify-around space-x-6"> 
          
           
           <a href="#" className="hover:text-gray-400 ">Terms and Conditions user policy</a>
