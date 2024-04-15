@@ -45,6 +45,12 @@ Recently we conducted a survey and got some interesting data from people facing 
 - Timer(Pomodoro Technique), ToDo List
 - Community Support
 
+## Some glimpse of the project
+
+![Main page](./Assets/ProActive_Page.png)
+
+![Main Screen](./Assets/ProAvtive_Main_Screen.png)
+
 ## Tech Stack
 
 ### Frontend:
@@ -131,5 +137,5 @@ git push origin your_branch_name
 We would highly appreciate it if you could star this repo to show us that it is helpful and to help others if you like it! 🌟
 
 ## LICENSE
-ProActive is licensed under the terms of the MIT License. check out [LICENSE](https://github.com/Suraj-kumar00/ProActive/blob/main/LICENSE) for details.
 
+ProActive is licensed under the terms of the MIT License. check out [LICENSE](https://github.com/Suraj-kumar00/ProActive/blob/main/LICENSE) for details.
