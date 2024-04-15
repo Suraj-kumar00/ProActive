@@ -13,7 +13,7 @@ Continuously postponing updating software or fixing bugs in a project, despite k
 
 ## ProActive
 
-As we know Procrastination is a very common psychology-based problem that can be solved by ProActive - a web-based Productivity tool.
+As we know Procrastination is a prevalent psychology-based problem that can be solved by **ProActive a web-based Productivity tool**.
 
 ## 3 Basic aspects of psychology
 
@@ -23,7 +23,7 @@ As we know Procrastination is a very common psychology-based problem that can be
 
 ## Some statistics
 
-Recently we conducted a survey and got some interesting data from people who are facing procrastination in their day-to-day lives. Have a look at the survey:
+Recently we conducted a survey and got some interesting data from people facing procrastination in their daily lives. Have a look at the survey:
 
 ![ProActive procrastination survey report](https://raw.githubusercontent.com/Suraj-kumar00/ProActive/main/Assets/Statistics_of_ProActive.jpeg)
 
